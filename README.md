@@ -28,7 +28,7 @@ Generate DOCX Invoice based on Toggl report and Google Docs template.
   * `amount`: Compensation in US dollars  
 
 ## Development
-Running tests and static code checks.
+### Running tests and static code analysis
 ```bash
 tox
 ``` 

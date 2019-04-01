@@ -22,12 +22,16 @@ Generate DOCX Invoice based on Toggl report and Google Docs template.
     rate = 20,5
     ```
 1) Add the following tags to the template. Use the Jinja 2 format `{{ tag }}`: 
-  * `invoice_no`: invoice number
-  * `date_en`: date in English
-  * `date_uk`: date in Ukrainian
-  * `hours`: number of hours
-  * `rate`: hourly rate in US dollars  
-  * `amount`: compensation in US dollars  
+    * `invoice_no`: invoice number
+    * `date_en`: date in English
+    * `date_uk`: date in Ukrainian
+    * `hours`: number of hours
+    * `rate`: hourly rate in US dollars  
+    * `amount`: compensation in US dollars  
+1) Render the invoice:
+    ```bash
+    invoices -t <TEMPLATE_DOCUMENT_ID> -o Invoice.docx -i <INVOICE_NUMBER>
+    ```
 
 ## Development
 ### Running tests and static code analysis

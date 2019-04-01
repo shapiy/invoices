@@ -127,8 +127,5 @@ credentials.json
 token.pickle
 invoices.toml
 
-# Pipenv
-Pipfile.lock
-
 # DOCX files
 *.docx

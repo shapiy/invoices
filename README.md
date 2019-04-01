@@ -2,6 +2,8 @@
 
 Generate DOCX Invoice based on Toggl report and Google Docs template.
 
+[![Build Status](https://travis-ci.com/shapiy/invoices.svg?branch=master)](https://travis-ci.com/shapiy/invoices)
+
 ## Getting started
 1) Enable Google Drive API as described 
 [in Drive API Python Quickstart](https://developers.google.com/drive/api/v3/quickstart/python).

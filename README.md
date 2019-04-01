@@ -21,8 +21,8 @@ Generate DOCX Invoice based on Toggl report and Google Docs template.
     ```
 1) Add the following tags to the template. Use the Jinja 2 format `{{ tag }}`: 
   * `invoice_no`: 4,
-  * `date_en`': Date in English
-  * `date_uk`': Date in Ukrainian
+  * `date_en`: Date in English
+  * `date_uk`: Date in Ukrainian
   * `hours`: Number of hours
   * `rate`: Hourly rate in US dollars  
   * `amount`: Compensation in US dollars  

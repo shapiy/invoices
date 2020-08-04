@@ -48,7 +48,7 @@ def fetch(
 
     total_grand = response_data['total_grand']
     if not total_grand:
-        raise RuntimeError('Toggl returned to data: {}'.format(response_data))
+        raise RuntimeError('Toggl returned no data: {}'.format(response_data))
 
     hours = Decimal(total_grand) / Decimal(1_000 * 60 * 60)
     report = Report(hours=hours)
